@@ -12,7 +12,7 @@ BootX can be used to boot Linux from MacOS but it's not able to boot Debian Inst
 A boot floppy for Debian 8 (Jessie), called oldworld-deb. Based on miBoot, Linux kernel, kexec and a simple init program.
 
 ## Usage
-Download the floppy image oldworld-deb.img and create the floppy:
+Download the floppy image [oldworld-deb.img] (https://github.com/ondrej-zary/oldworld-deb/releases/download/v1.0/oldworld-deb.img) and create the floppy:
 
     dd if=oldworld-deb.img of=/dev/fd0
 
